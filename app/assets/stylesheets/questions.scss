@@ -1,0 +1,45 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.container {
+flex: auto;
+width: 600px;
+
+}
+.reply {
+  background-color: #FFFFE1;
+  color: black;
+  padding: 20px;
+  margin: 20px;
+  p {
+    font-style: italic;
+  }
+}
+
+.answer {
+  padding: 20px;
+  margin: 20px;
+   p {
+    font-style: italic;
+  }
+}
+
+a {
+ text-decoration: none;
+  color: grey;
+   &:hover {
+     color: black;
+   }
+}
